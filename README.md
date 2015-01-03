@@ -9,14 +9,20 @@ Script to update kernel to latest mainline version in ubuntu.
 
 
 ###Installation:
-1.	Download <a href="https://raw.githubusercontent.com/iitmanojit/ubuntu-kernel-updater/master/INSTALL.sh" download target="_blank" type="application/octet-stream">INSTALL.sh</a>.
+1. Download <a href="https://raw.githubusercontent.com/iitmanojit/ubuntu-kernel-updater/master/INSTALL.sh" download target="_blank" type="application/octet-stream">INSTALL.sh</a>.
 	
-	Or clone using git 
-	<code>git clone https://github.com/iitmanojit/ubuntu-kernel-updater/</code>
+ Or clone using git 
+	
+ <code>$ git clone https://github.com/iitmanojit/ubuntu-kernel-updater/</code>
 
-2.	Give execution right to the script <code>chmod +x INSTALL.sh</code>
+2. Give execution right to the script 
 
-3.	Run <code>sudo bash ./INSTALL.sh</code>
+ <code>$ chmod +x ./INSTALL.sh</code>
+
+3. Begin the installation procedure 
+
+ <code>$ sudo bash ./INSTALL.sh</code>
 
 ###Uninstallation
-Run <code>sudo bash ./UNINSTALL.sh</code>
+Execute 
+ <code>$ sudo bash ./UNINSTALL.sh</code>
