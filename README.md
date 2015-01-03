@@ -1,4 +1,5 @@
 # Ubuntu Kernel Updater
+=======================
 <p align="center">
   <img src="https://i.imgur.com/ulXnsPr.png" alt="ubuntu logo" />
 </p>
@@ -13,16 +14,21 @@ Script to update kernel to latest mainline version in ubuntu.
 	
  Or clone using git 
 	
- <code>$ git clone https://github.com/iitmanojit/ubuntu-kernel-updater/</code>
+ <pre>$ git clone https://github.com/iitmanojit/ubuntu-kernel-updater/</pre>
 
 2. Give execution right to the script 
 
- <code>$ chmod +x ./INSTALL.sh</code>
+ <pre>$ chmod +x ./INSTALL.sh</pre>
 
 3. Begin the installation procedure 
 
- <code>$ sudo bash ./INSTALL.sh</code>
+ <pre>$ sudo bash ./INSTALL.sh</pre>
 
-###Uninstallation
+
+###Uninstall:
 Execute 
- <code>$ sudo bash ./UNINSTALL.sh</code>
+ <pre>$ sudo bash ./UNINSTALL.sh</pre>
+
+
+###Video Demo:
+*Coming Soon*
