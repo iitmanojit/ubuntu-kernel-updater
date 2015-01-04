@@ -12,8 +12,12 @@ Script to update kernel to latest mainline version in ubuntu.
 ###Installation:
 1. Download <a href="https://raw.githubusercontent.com/iitmanojit/ubuntu-kernel-updater/master/INSTALL.sh" download target="_blank" type="application/octet-stream">INSTALL.sh</a>.
 
- <pre>$ wget https://raw.githubusercontent.com/iitmanojit/ubuntu-kernel-updater/master/INSTALL.sh</pre>
+ <pre>$ wget --no-certificate-check https://raw.githubusercontent.com/iitmanojit/ubuntu-kernel-updater/master/INSTALL.sh</pre>
 	
+ Short 
+ 
+ <pre>$ wget --no-certificate-check https://j.mp/ubuntu-kernel-updater</pre>
+ 
  You can also clone using git 
 	
  <pre>$ git clone https://github.com/iitmanojit/ubuntu-kernel-updater/</pre>
