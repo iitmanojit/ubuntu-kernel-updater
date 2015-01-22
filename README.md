@@ -6,7 +6,7 @@
 Script to update kernel to latest mainline version in ubuntu.
 
 #####Kernel Build
-- 3.18.1-031801-generic #201412170637 SMP Wed Dec 17 11:38:50 UTC 2014
+- 3.18.3-031803-generic #201501161810
 
 
 ###Installation:
