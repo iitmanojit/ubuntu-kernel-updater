@@ -8,11 +8,11 @@ echo "*****************$(tput bold)Ubuntu Kernel Updater$(tput sgr0)************
 $(tput sgr0)
 https://github.com/iitmanojit/ubuntu-kernel-updater/
 Email: iitmanojit@gmail.com
-Kernel Build: 3.18.3-031803 mainline (on 16-Jan-2015)
+Kernel Build: 3.18.4-031804 mainline (on 	27-Jan-2015)
 License: GNU GPL v2.0
 ********************************************************"
 while true; do
-	read -p "Are you sure you want to manually upgrade kernel to 3.18.3 (y/n)?" yn
+	read -p "Are you sure you want to manually upgrade kernel to 3.18.4 (y/n)?" yn
     case $yn in
         [Yy]* ) break;;
         [Nn]* ) exit;;
@@ -21,11 +21,11 @@ while true; do
 done
 
 #URL of kernel packages
-url_headers_all="http://kernel.ubuntu.com/~kernel-ppa/mainline/v3.18.3-vivid/linux-headers-3.18.3-031803_3.18.3-031803.201501161810_all.deb"
-url_image_generic_i386="http://kernel.ubuntu.com/~kernel-ppa/mainline/v3.18.3-vivid/linux-image-3.18.3-031803-generic_3.18.3-031803.201501161810_i386.deb"
-url_headers_generic_i386="http://kernel.ubuntu.com/~kernel-ppa/mainline/v3.18.3-vivid/linux-headers-3.18.3-031803-generic_3.18.3-031803.201501161810_i386.deb"
-url_headers_generic_amd64="http://kernel.ubuntu.com/~kernel-ppa/mainline/v3.18.3-vivid/linux-headers-3.18.3-031803-generic_3.18.3-031803.201501161810_amd64.deb"
-url_image_generic_amd64="http://kernel.ubuntu.com/~kernel-ppa/mainline/v3.18.3-vivid/linux-image-3.18.3-031803-generic_3.18.3-031803.201501161810_amd64.deb"
+url_headers_all="http://kernel.ubuntu.com/~kernel-ppa/mainline/v3.18.4-vivid/linux-headers-3.18.4-031804_3.18.4-031804.201501271243_all.deb"
+url_image_generic_i386="http://kernel.ubuntu.com/~kernel-ppa/mainline/v3.18.4-vivid/linux-image-3.18.4-031804-generic_3.18.4-031804.201501271243_i386.deb"
+url_headers_generic_i386="http://kernel.ubuntu.com/~kernel-ppa/mainline/v3.18.4-vivid/linux-headers-3.18.4-031804-generic_3.18.4-031804.201501271243_i386.deb"
+url_headers_generic_amd64="http://kernel.ubuntu.com/~kernel-ppa/mainline/v3.18.4-vivid/linux-headers-3.18.4-031804-generic_3.18.4-031804.201501271243_amd64.deb"
+url_image_generic_amd64="http://kernel.ubuntu.com/~kernel-ppa/mainline/v3.18.4-vivid/linux-image-3.18.4-031804-generic_3.18.4-031804.201501271243_amd64.deb"
 
 
 #install package based on architecture
