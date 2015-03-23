@@ -16,7 +16,7 @@ Script to update kernel to latest mainline version in ubuntu.
 	
  Short 
  
- <pre>$ wget --no-certificate-check https://j.mp/ubuntu-kernel-updater</pre>
+ <pre>$ wget --no-check-certificate https://j.mp/ubuntu-kernel-updater</pre>
  
  You can also clone using git 
 	
